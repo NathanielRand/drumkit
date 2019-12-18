@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background: url(https://images.pexels.com/photos/159420/piano-instrument-music-keys-159420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) bottom center;
   background-size: cover;
 }
 
@@ -8,6 +8,40 @@ body,html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+h1, h2, h3 {
+  color: #ffc107;
+  text-align: center;  
+  font-family: Quicksand; 
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;  
+}
+
+.card {
+  background-color: antiquewhite;
+  border: 3px white solid;
+  border-radius: 3rem 9rem;
+  width: 40%;
+  margin-top: 1%;
+  margin-bottom: -8%;
+  box-shadow: 10px 10px 5px #212121;
 }
 
 .keys {
@@ -20,7 +54,7 @@ body,html {
 
 .key {
   border: .4rem solid black;
-  border-radius: .5rem;
+  border-radius: 1.5rem 4.5rem;
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
@@ -29,7 +63,7 @@ body,html {
   text-align: center;
   color: white;
   background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+  text-shadow: 0 0 .5rem black;  
 }
 
 .playing {
@@ -48,4 +82,5 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
+  font-family: Quicksand; 
 }
