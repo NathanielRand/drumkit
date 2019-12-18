@@ -10,14 +10,15 @@ body,html {
   font-family: sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
+  font-family: 'Lakki Reddy', cursive;
   color: #ffc107;
-  text-align: center;  
-  font-family: Quicksand; 
+  text-align: center;    
+  text-shadow: 2px 2px whitesmoke;
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 48px;    
 }
 
 h2 {
@@ -28,6 +29,10 @@ h3 {
   font-size: 20px;
 }
 
+h4 {
+  font-size: 18px;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -35,12 +40,12 @@ h3 {
 }
 
 .card {
-  background-color: antiquewhite;
+  background-color: #eee;
   border: 3px white solid;
-  border-radius: 3rem 9rem;
+  border-radius: 3rem 6rem;
   width: 40%;
   margin-top: 1%;
-  margin-bottom: -8%;
+  margin-bottom: -15%;
   box-shadow: 10px 10px 5px #212121;
 }
 
@@ -63,7 +68,7 @@ h3 {
   text-align: center;
   color: white;
   background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;  
+  text-shadow: 0 0 .5rem black;    
 }
 
 .playing {
@@ -75,6 +80,7 @@ h3 {
 kbd {
   display: block;
   font-size: 4rem;
+  font-family: 'Lakki Reddy', cursive;
 }
 
 .sound {
